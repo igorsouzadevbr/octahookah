@@ -1,0 +1,65 @@
+/*!
+      * Project Name: Octa Theme
+      * Project URI: https://www.octahookah.com.br/
+      * Author: Igor Souza
+      * Author URI: https://www.cadenzatecnologia.com.br/
+      * Description: Octa Theme - Store
+      * Version: 1.0b
+*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'SF UI Display Light';
+}
+
+.default_body {
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'SF UI Display Medium';
+	height: 730px;
+}
+
+#menu {
+	margin-top: 10px;
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 13px;
+    display: inline-block;
+}
+
+.default_footer {
+		font-family: 'SF UI Display Medium';
+	height: 230px;
+	color: #999999;
+	background-color: #F0F0F0;
+}
+
+#menufooter ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+#menufooter ul li { display: inline; }
+
+#menufooter ul li a {
+	color: #999999;
+	font-size: 14px;
+    padding: 2px 13px;
+    display: inline-block;
+}
+
+@media screen and (min-width: 400px) {
+  .imgi {
+    max-width: 400px; 
+  }
+}
